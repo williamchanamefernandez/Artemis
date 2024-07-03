@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/all.min.css">
+    <link rel="stylesheet" href="src/css/fontawesome.min.css">
+    <link rel="stylesheet" href="src/css/index1.css">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--  -->
+    <title>Check Out</title>
+</head>
+
+<body class="body" style="background-color: #EEEEEE;">
+    <header class="container-fluid header" style="background-color: #F79A07;">
+        <div class="row py-3">
+            <div class="col-3 d-flex justify-content-around">
+                <img class="img-fluid" src="src/img/64x64.png" alt="">
+                <nav class="nav">
+                    <a href="" class="nav-link d-flex align-items-center mayor border-0" style="color: #000;">
+                        <i class="fa-solid fa-bars"></i></a>
+                    <a href="" class="nav-link d-flex align-items-center mayor border-0" style="color: #000;">Menú</a>
+                </nav>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <input type="search" class="w-75 form-control busqueda" style="border-radius: 28px;"
+                    value="Buscar en artemis.com">
+                <a href="" style="background-color: #000; border-radius: 50%; margin-left: -6%;" class="px-4 py-3">
+                    <i style="color: #fff;" class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <div class="col-3">
+                <nav class="nav d-flex justify-content-around">
+                    <a href="" class="nav-link medio" style="color: #000;">Hola <br> Inicia sesión</a>
+                    <a href="" class="nav-link d-flex align-items-center mayor" style="color: #000;">
+                        <i class="fa-regular fa-bell"></i></a>
+                    <a href="" class="nav-link d-flex align-items-center mayor" style="color: #000;">
+                        <i class="fa-sharp fa-regular fa-heart"></i></a>
+                    <a href="" class="nav-link d-flex align-items-center mayor border-0" style="color: #000;">
+                        <i class="fa-solid fa-cart-shopping"></i></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-fluid mt-5">
+        <div class="row d-flex justify-content-around">
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Tarjetas Guardadas</h2>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 px-5 py-5" style="background-color: #fff;">
+                        <div class="accordion accordion-flush" id="temario">
+                            <!-- Elemento #1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="encabezado-1">
+                                    <button class="accordion-button bg-white text-dark" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#elemento-1" aria-expanded="true" aria-controls="elemento-1">
+                                        Tarjeta 1
+                                    </button>
+                                </h2>
+
+                                <div id="elemento-1" class="accordion-collapse collapse show"
+                                    aria-labelledby="encabezado-1" data-bs-parent="#temario">
+                                    <div class="accordion-body py-4  d-flex gap-5">
+                                        <div class="d-flex align-items-center">
+                                            <img src="src/img/checkOut/master.png" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h4>Mater Card ****6085</h4>
+                                            <div class="d-flex">
+                                                <ul class="nav nav-tabs d-flex justify-content-between">
+                                                    <li class="nav-item dropdown">
+                                                        <a href="" class="nav-link dropdown-toggle text-dark"
+                                                            data-bs-toggle="dropdown" role="button"
+                                                            aria-expanded="false">
+                                                            Núm de Cuotas
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">1</span>Cuota
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">2</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">3</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">4</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">5</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">6</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                    <li class="nav-item dropdown">
+                                                        <a href="" class="nav-link dropdown-toggle text-dark"
+                                                            data-bs-toggle="dropdown" role="button"
+                                                            aria-expanded="false">
+                                                            Pagar Ahora
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">1</span>Pagar
+                                                                    Ahora
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Elemento #2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="encabezado-1">
+                                    <button class="accordion-button bg-white text-dark" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#elemento-2" aria-expanded="true" aria-controls="elemento-2">
+                                        Tarjeta 2
+                                    </button>
+                                </h2>
+
+                                <div id="elemento-2" class="accordion-collapse collapse show"
+                                    aria-labelledby="encabezado-2" data-bs-parent="#temario">
+                                    <div class="accordion-body d-flex py-4 gap-5">
+                                        <div class="d-flex align-items-center">
+                                            <img src="src/img/checkOut/debito.png" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h4>Débito ****6085</h4>
+                                            <div class="d-flex">
+                                                <ul class="nav nav-tabs d-flex justify-content-between">
+                                                    <li class="nav-item dropdown">
+                                                        <a href="" class="nav-link text-dark dropdown-toggle"
+                                                            data-bs-toggle="dropdown" role="button"
+                                                            aria-expanded="false">
+                                                            Núm de Cuotas
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">1</span>Cuota
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">2</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">3</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">4</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">5</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">6</span>Cuotas
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                    <li class="nav-item dropdown">
+                                                        <a href="" class="nav-link dropdown-toggle text-dark"
+                                                            data-bs-toggle="dropdown" role="button"
+                                                            aria-expanded="false">
+                                                            Pagar Ahora
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="" class="dropdown-item">
+                                                                    <span id="nroCuotas" class="me-2">1</span>Pagar
+                                                                    Ahora
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 px-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Resumen de la compra</h2>
+                    </div>
+                </div>
+                <div class="row mt-4 pb-4 px-4" style="background-color: #fff;">
+                    <div class="col-12 d-flex justify-content-between mt-5">
+                        <p>Productos <span id="cantidadFinal">(2)</span></p>
+                        <p>S/<span id="montoFinal">234.90</span></p>
+                    </div>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between">
+                        <p>Descuentos <span id="cantidadDescuentos">(1)</span></p>
+                        <p>S/-<span id="montoDescuentosFinal">22</span></p>
+                    </div>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between">
+                        <p>Entregas <span id="cantidadDescuentos">(2)</span></p>
+                        <p>S/<span id="montoDescuentosFinal">8.90</span></p>
+                    </div>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between">
+                        <p>Total:</p>
+                        <p>S/<span id="montoCompraFinal">221.80</span></p>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <input type="button" value="Pagar" class="form-control py-3"
+                            style="color: #fff; border-radius: 30px; background-color: #FF7F00;">
+                    </div>
+                </div>
+                <div class="row mt-3 py-4 px-4" style="background-color: #fff;">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="misma-direccion">
+                            <label for="misma-direccion" class="form-check-label">
+                                Declaro que he leído y acepto los términos y condiciones
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer py-3 mt-5">
+        <div class="row px-5 pt-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Sobre Nosotros</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <p>Artemis es una empresa lider en el
+                    sector del comercio electronico, especializada en ofrecer a sus clientes
+                    una alta gama de productos de alta calidad y innovaciones</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Ponerse en contacto</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <p>Av. Artemis - CHICLAYO <br>
+                    sporteArtemis@gmail.com <br>
+                    +51 1111 2222 3333</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Páginas</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <ul class="px-0">
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Inicio</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Acerca De</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Comercio</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Noticias</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Contacto</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Suscribir</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <p>Suscribirsea nuestra lista de correo para recibir las última actualizaciones</p>
+                <form action="">
+                    <div class="input-group d-flex gap-1">
+                        <input type="text" id="usuario" class="form-control" placeholder="Ingrese su email">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text h-100" style="background-color: #FE9609;"><i
+                                    class="fa-solid fa-chevron-right" style="color: #fff;"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-between px-5">
+            <div class="col-12 col-md-4 col-lg-4">
+                <p>Copyriht © 2024 - Artemis. Todos los derechos reservados.</p>
+                <p>Distribuido por Artemis</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 d-flex justify-content-start justify-content-md-end align-items-md-center">
+                <a href="" class="l-foot"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="l-foot"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="" class="l-foot"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="l-foot"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

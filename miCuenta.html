@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/all.min.css">
+    <link rel="stylesheet" href="src/css/fontawesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/index2.css">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--  -->
+    <link rel="shortcut icon" href="src/img/64x64.png" type="image/x-icon">
+    <title>Mi Cuenta</title>
+
+    <style>
+        .use {
+            color: #596069;
+        }
+
+        .naranja {
+            border: 1px solid #FE9609;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body class="body" style="background-color: #F5F5F5;">
+    <div class="header" style="background-color: #F79A07;">
+        <div class="row py-3">
+            <div class="col-6 d-none d-md-block col-md-6 order-lg-2  col-lg-3 d-lg-flex justify-content-center gap-5">
+                <a href="index.html"><img src="src/img/64x64.png" alt=""></a>
+                <ul class="nav">
+                    <li class="nav-item"><a href="" class="nav-link mayor border-0" style="color: #000;">
+                            <i class="fa-solid fa-bars"></i></a></li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle mayor border-0" data-bs-toggle="dropdown"
+                            role="button" aria-expanded="false" style="color: #000;">
+                            Menú
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="acercaDe.html" class="dropdown-item">Acerca De</a></li>
+                            <li><a href="contacto.html" class="dropdown-item">Contacto</a></li>
+                            <li><a href="busquedaProductos.html" class="dropdown-item">Busqueda</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div
+                class="col-12 col-md-12 order-lg-2 order-md-3 col-lg-6 d-flex align-items-center justify-content-center">
+                <form action="" class="w-100 d-flex">
+                    <input type="search" placeholder="Buscar en Artemis.com" class="form-control py-3 busqueda"
+                        style="border-radius: 28px;">
+                    <a href="" style="background-color: #000; border-radius: 50%; margin-left: -7%;" class="px-4 py-3">
+                        <i style="color: #fff;" class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </form>
+            </div>
+            <div class="col-3 d-none d-md-block col-md-6 order-lg-2  col-lg-3">
+                <ul class="nav  d-flex">
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle medio" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false" style="color: #000;">
+                            Hola <br> Inicia
+                            sesión
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="" class="dropdown-item" data-bs-toggle="modal"
+                                    data-bs-target="#mi-modal-1">Inicia Sesión</a>
+                            </li>
+                            <li><a href="registrarse.html" class="dropdown-item">Regístrate</a></li>
+                            <li><a href="" class="dropdown-item">Mi cuenta</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="" class="nav-link mayor" style="color: #000;">
+                            <i class="fa-regular fa-bell"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link mayor" style="color: #000;">
+                            <i class="fa-sharp fa-regular fa-heart"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link mayor border-0" style="color: #000;">
+                            <i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+                <div class="modal fade" id="mi-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1"
+                    data-bs-backdrop="static">
+                    <!-- Caja de dialogo -->
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <!-- Contenido de la caja -->
+                        <div class="modal-content">
+                            <!-- Encabezado de la caja -->
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center">Inicio sesión para comprar</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                            </div>
+
+                            <!-- Cuerpo de la caja -->
+                            <div class="modal-body justify-content-center gap-5 d-flex w-100">
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid" src="src/img/1024x1024 (1) (1).png" alt="">
+                                </div>
+
+                                <form action="" class="d-flex flex-column">
+                                    <div>
+                                        <label for="correo" class="form-label">Correo electrónico</label>
+                                        <input type="text" class="form-control border-0 p-0 mt-1 ingresos"
+                                            placeholder="Correo">
+                                        <label for="contraseña" class="form-label mt-4">Contraseña</label>
+                                        <input type="text" class="form-control border-0 p-0 ingresos"
+                                            placeholder="Contraseña">
+                                    </div>
+                                    <div class="d-flex align-items-center flex-column mt-5">
+                                        <h6>¿Olvidaste tu contraseña?</h6>
+                                        <a href="" class="btn ingresar py-2 px-5 text-white">Ingresar</a>
+                                        <h6 class="mt-2">¿Aún no tienes cuenta? <span>
+                                                <a href="" class="text-dark"
+                                                    style="text-decoration: none;">Registrate</a></span></h6>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="container-fluid">
+        <div class="row px-4 my-5 py-4" style="background-color: #fff;">
+            <div class="col-12 d-flex align-items-center gap-5">
+                <div>
+                    <a href="" class="fs-1 use"><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div>
+                    <h3 class="text-muted">HOLA</h3>
+                    <h4>Joseph Vidaurre</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row my-2 py-2 gap-5 d-flex justify-content-between">
+            <div class="col-4 px-4 py-4" style="background-color: #fff;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="me-2"><i class="fa-regular fa-user"></i></span>
+                        <a href="#" style="text-decoration: none; color: #000;">Datos Personales</a>
+                        <span></span>
+                    </li>
+                    <li class="list-group-item mt-3">
+                        <span class="me-2"><i class="fa-brands fa-shopify"></i></span>
+                        <a href="misCompras.html" style="text-decoration: none; color: #000;">Mis Compras</a>
+                        <span></span>
+                    </li>
+                    <li class="list-group-item mt-3">
+                        <span class="me-2"><i class="fa-solid fa-right-to-bracket"></i></span>
+                        <a href="" style="text-decoration: none; color: #000;">Cerrar Sesión</a>
+                        <span></span>
+                    </li>
+                    <li class="list-group-item">
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-7 px-4 py-4" style="background-color: #fff;">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-12">
+                        <h2>Datos personales</h2>
+                    </div>
+                    <div class="col-3">
+                        <h5>Nombre</h5>
+                        <p>Joseph</p>
+                        <hr class="w-50">
+                        <p>Tipo de Documento</p>
+                        <p class="text-muted">DNI:72807123</p>
+                    </div>
+                    <div class="col-3">
+                        <h5>Primer Apellido</h5>
+                        <p>Vidaurre</p>
+                        <hr class="w-50">
+                        <p>Ceular</p>
+                        <p class="text-muted">+51 936585631</p>
+                    </div>
+                    <div class="col-3">
+                        <h5>Segundo Apellido</h5>
+                        <p>Ingresa tu apellido</p>
+                        <hr class="w-50">
+                        <p>Correo electrónico</p>
+                        <p class="text-muted">josephvisa099cg@gmail.com</p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center mt-5" style="background-color: #fff;">
+                        <a href="" class="w-50 btn btn-lg btn-outline-secondary px-5 naranja">Guardar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer py-3 mt-5">
+        <div class="row px-5 pt-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Sobre Nosotros</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <p>Artemis es una empresa lider en el
+                    sector del comercio electronico, especializada en ofrecer a sus clientes
+                    una alta gama de productos de alta calidad y innovaciones</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Ponerse en contacto</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <p>Av. Artemis - CHICLAYO <br>
+                    sporteArtemis@gmail.com <br>
+                    +51 1111 2222 3333</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Páginas</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <ul class="px-0">
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Inicio</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Acerca De</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Comercio</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Noticias</li>
+                    <li class="d-flex gap-3 mt-2"><span><i class="fa-solid fa-angle-right"></i></span>Contacto</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3>Suscribir</h3>
+                <hr class="w-25" style="background-color: #F79A07;">
+                <p>Suscribirsea nuestra lista de correo para recibir las última actualizaciones</p>
+                <form action="">
+                    <div class="input-group d-flex gap-1">
+                        <input type="text" id="usuario" class="form-control" placeholder="Ingrese su email">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text h-100" style="background-color: #FE9609;"><i
+                                    class="fa-solid fa-chevron-right" style="color: #fff;"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-between px-5">
+            <div class="col-12 col-md-4 col-lg-4">
+                <p>Copyriht © 2024 - Artemis. Todos los derechos reservados.</p>
+                <p>Distribuido por Artemis</p>
+            </div>
+            <div
+                class="col-12 col-md-4 col-lg-4 d-flex justify-content-start justify-content-md-end align-items-md-center">
+                <a href="" class="l-foot"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="l-foot"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="" class="l-foot"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="l-foot"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
